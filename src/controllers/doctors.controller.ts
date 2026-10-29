@@ -21,3 +21,7 @@ doctorsController.get("/", (req: Request, res: Response) => {
   console.log("[GET] /doctors/");
   res.status(200).json(doctors);
 });
+
+
+
+// new route TODO :
